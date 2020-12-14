@@ -48,15 +48,48 @@ Human = {
                    "character. Their stats aren't even good either."
 }
 types = [Goliath, Imp, Dark_Elf, Holy_Knight, Human]
-#Prints all of the types and stats respectively
-for i in range(0, len(types)):
-    print("Type:", types[i]["type"])
-    print("Health:", types[i]["health"])
-    print("Attack:", types[i]["attack"])
-    print("Defense:", types[i]["defense"])
-    print("Speed:", types[i]["speed"])
-    print("Description:", types[i]["description"], "\n")
 
+# Class for Game File to print character info
+class CharacterInfo():
+    def __init__(self):
+        print("Welcome to the Game!")
 
+    def printGoliathInfo(self):
+        print("Type:", types[0]["type"])
+        print("Health:", types[0]["health"])
+        print("Attack:", types[0]["attack"])
+        print("Defense:", types[0]["defense"])
+        print("Speed:", types[0]["speed"])
+        print("Description:", types[0]["description"], "\n")
 
+    def printImpInfo(self):
+        print("Type:", types[1]["type"])
+        print("Health:", types[1]["health"])
+        print("Attack:", types[1]["attack"])
+        print("Defense:", types[1]["defense"])
+        print("Speed:", types[1]["speed"])
+        print("Description:", types[1]["description"], "\n")
 
+    def printDarkElfInfo(self):
+        print("Type:", types[2]["type"])
+        print("Health:", types[2]["health"])
+        print("Attack:", types[2]["attack"])
+        print("Defense:", types[2]["defense"])
+        print("Speed:", types[2]["speed"])
+        print("Description:", types[2]["description"], "\n")
+
+    def printHolyKnightInfo(self):
+        print("Type:", types[3]["type"])
+        print("Health:", types[3]["health"])
+        print("Attack:", types[3]["attack"])
+        print("Defense:", types[3]["defense"])
+        print("Speed:", types[3]["speed"])
+        print("Description:", types[3]["description"], "\n")
+
+    def printGoliathInfo(self):
+        print("Type:", types[4]["type"])
+        print("Health:", types[4]["health"])
+        print("Attack:", types[4]["attack"])
+        print("Defense:", types[4]["defense"])
+        print("Speed:", types[4]["speed"])
+        print("Description:", types[4]["description"], "\n")
